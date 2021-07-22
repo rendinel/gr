@@ -1,0 +1,12 @@
+#container{
+background-color: lightgreen;
+display: inline-grid;
+grid-template-columns: minmax(160px, 200px) 1fr 2fr;
+grid-template-rows: repeat(3,150px);
+grid-gap: 10px;
+}
+
+.item{
+    background: lightcoral;
+    padding: 30px;
+}

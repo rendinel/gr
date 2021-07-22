@@ -1,0 +1,16 @@
+#container{
+background-color: lightgreen;
+display: inline-grid;
+grid-template-columns: 100px 300px auto;
+grid-template-rows: 100px;
+/* grid-column-gap: 10px;
+grid-row-gap:10px; */
+/* versione short ,1 solo valore prende sia row che column,
+con 2 primo valore row secondo valore column */
+grid-gap: 10px 20px;
+}
+
+.item{
+    background: lightcoral;
+    padding: 30px;
+}

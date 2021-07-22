@@ -1,0 +1,16 @@
+#container{
+background-color: lightgreen;
+display: inline-grid;
+/* repeat permette di specificare quante colonne si vogliono come primo paramentro e 
+come secondo l'unitá di misura che puó essere in normale unitá di misura o fr che divide in parti uguali lo spazio disponibile
+come 1 2 3 di flex, si puó aggiungere colonna diversa o prima o dopo il repeat
+  */
+grid-template-columns: repeat(3,1fr) 2fr;
+grid-template-rows: repeat(3,150px);
+grid-gap: 10px;
+}
+
+.item{
+    background: lightcoral;
+    padding: 30px;
+}
